@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://sarina.mine.nu/IP1/ass1/b"
+href="WebStart.jnlp">
+  <information>
+    <title>Av Carina Neren</title>
+    <vendor>Carina Neren</vendor>
+    <homepage href="http://sarina.mine.nu/IP1" />
+    <description>Uppg 1b Ip1 DSVL:4</description>
+    <description kind="short">Uppgift 1b Ip1 DSVL:4</description>
+  </information>
+  <security>
+    <j2ee-application-client-permissions/>
+  </security>
+  <resources>  
+    <j2se version="1.4+"/>
+    <jar href="WebStart.jar"/>
+  </resources>
+  <application-desc main-class="WebStart"/>
+</jnlp>

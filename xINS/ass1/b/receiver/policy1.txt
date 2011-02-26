@@ -1,0 +1,9 @@
+/* AUTOMATICALLY GENERATED ON Wed Dec 03 10:25:30 CET 2003*/
+/* DO NOT EDIT */
+
+keystore "file:./keystoreReceiver";
+
+grant signedBy "carinareceiver",  codeBase "http://sarina.mine.nu/INS/i1/b/owner/Signed_Browser.jar" {
+  permission java.net.SocketPermission "*", "accept, connect, listen, resolve";
+};
+

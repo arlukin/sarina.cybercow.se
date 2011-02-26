@@ -1,0 +1,147 @@
+/* Almänna text styles */
+
+TD {
+	font-family: Verdana, Geneva, Arial;
+	font-size: 7.5pt;
+}
+
+a	{ color: #586D89; text-decoration: underline; font-weight: bold; }
+a:visited	{ color: #586D89; text-decoration: underline; font-weight: bold; }
+a:active	{ color: #586D89; text-decoration: underline; font-weight: bold; }
+a:hover	{ color: #586D89; text-decoration: underline; font-weight: bold; }
+
+a.menu	{ color: #FFFFFF; text-decoration: none; font-weight: bold; }
+a.menu:visited	{ color: #FFFFFF; text-decoration: none; font-weight: bold; }
+a.menu:active	{ color: #FFFFFF; text-decoration: none; font-weight: bold; }
+a.menu:hover	{ color: #535353; text-decoration: none; font-weight: bold; }
+
+a.left	{ color: #000000; text-decoration: none; font-weight: normal; }
+a.left:visited	{ color: #000000; text-decoration: none; font-weight: normal; }
+a.left:active	{ color: #000000; text-decoration: none; font-weight: normal; }
+a.left:hover	{ color: #000000; text-decoration: underline; font-weight: normal; }
+
+a.right	{ color: #000000; text-decoration: none; font-weight: normal; }
+a.right:visited	{ color: #000000; text-decoration: none; font-weight: normal; }
+a.right:active	{ color: #000000; text-decoration: none; font-weight: normal; }
+a.right:hover	{ color: #000000; text-decoration: underline; font-weight: normal; }
+
+.top_menu {
+	color: #E78A11;
+	font-size : 7.5pt;
+	font-weight: bold;
+}
+
+.rubrik {
+	color: #535353;
+	font-size : 8pt;
+	font-weight: bold;
+}
+
+ul {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 30px;
+}
+
+
+/*
+	---
+	css för /FareOfficeCustomerPortal/StyleXX
+	---
+*/
+.cssBodyTable {
+	background-color: #688A5F;
+}
+
+/* Huvud rubrikerna i menyn till vänster */
+.cssMenuLabel {
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+/* Styles som behandlar dialog rutorna
+	FIX: Det är dom första namnen som ska användas, alltså innan commat.
+*/
+
+/* Den yttersta tabellen i en dialog. */
+.cssDialogBorder {
+	border:1px outset silver; background-color: #F2F2F2;
+	
+}
+
+.cssHeader2, .cssDialogCaption {
+	letter-spacing : 2px;
+	font-family: Arial Black;
+	color: #535353;
+	font-size : 10pt;
+}
+
+.cssHeader3, .cssLabel {
+	font-family: Verdana, Geneva, Arial;
+	font-size: 9pt;
+	color: #3F3D3D;
+
+	font-weight : normal;
+	margin-top: 5px;
+	margin-right: 5px;
+	float: left;
+}
+
+.cssError {
+	color: #E06C69;
+	font-weight: bold;
+}
+.cssInformation {
+	color: blue;
+	font-weight: bold;
+}
+
+/* Rektangeln längst ner på resultat med sidbytar pilarna */
+.cssToolBar {
+	font-family: Verdana, Geneva, Arial;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #3F3D3D;
+	background-color : #A4B4C6;
+	background: url('http://www.odenresor.se/new/img/psa_toolbar_bg.gif');
+}
+
+/* Content skapade tabellen. */
+.cssContentTd {
+	font-family: Verdana, Geneva, Arial;
+	font-size: 7.5pt;
+}
+
+
+/*   */
+.cssHeader3Required, .cssLabelRequired  {
+	font-family: Verdana, Geneva, Arial;
+	font-size: 8pt;
+	color: #535353;
+
+	font-weight : bold;
+	margin-top: 5px;
+	margin-right: 5px;
+	float: left;
+}
+
+/* Rader på ett resultat */
+.cssResultText{
+	font-size: 8pt;
+	color: Black;
+	background-color : white;
+}
+
+/* Readonly texter, istället för <input> taggar */
+
+.cssText   {
+	font-family: Verdana, Geneva, Arial;
+	font-size: 8pt;
+	color: Black;
+}
+
+textarea, select, input{
+	font-family : Verdana, Geneva, Arial;
+	font-size : 8pt;
+}

@@ -1,0 +1,7 @@
+/* AUTOMATICALLY GENERATED ON Wed Nov 26 15:37:55 CET 2003*/
+/* DO NOT EDIT */
+
+grant codeBase "http://sarina.mine.nu/INS/i1/a/Browser.jar" {
+  permission java.net.SocketPermission "*", "accept, connect, listen, resolve";
+};
+

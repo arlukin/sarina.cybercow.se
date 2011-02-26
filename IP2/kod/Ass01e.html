@@ -1,0 +1,122 @@
+<!-- //Carina Nerén, 751011-7869 -->
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>
+      Uppgift 5e- Serversidan I/O, input, GET och POST
+    </title>
+    <link href="http://atlas.dsv.su.se/~pierre/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>
+      Uppgift 1e Serversidan I/O, input, GET och POST
+    </h1>
+    <h2>
+		GET
+	</h2>
+
+	<h3>
+	 	URL-länk
+	</h3>
+	<p>
+		<a href="Ass01e?name=Carina+Nerén&amp;email=carina-n@dsv.su.se">Ass01e?name=Carina+Nerén&amp;email=carina-n@dsv.su.se</a>
+	</p>
+
+	<h3>
+	 	Formulär
+	</h3>
+	<form method="get" action="Ass01e">
+		<div>
+  	 		<input type="hidden" name="hidden" value="I am hidden!" />
+	 	</div>
+	 	<table>
+	 		<tr>
+	 			<td>
+	 				Namn:
+	 			</td>
+	 			<td>
+	 				<input type="text" name="name1" />
+	 			</td>
+	 		</tr>
+	 		<tr>
+	 			<td>
+	 				E-post:
+	 			</td>
+	 			<td>
+	 				<input type="text" name="email" />
+	 			</td>
+	 		</tr>
+	 	</table>
+	 	<p>
+	 		<input type="submit" value="Sänd" name="button" />
+	 	</p>
+	</form>
+
+	<h2>
+	 	POST, Formulär
+	</h2>
+	<p>
+	 	Tryck på bilden eller på knappen för att köra HTTP-serversides-programmet. Notera att man får koordinaterna för musklicket om man sänder via bilden.
+	</p>
+	<form method="post" action="Ass01e">
+	 	<div>
+	 		<input type="hidden" name="hidden" value="I am hidden!" />
+	 	</div>
+	 	<p>
+	 		One-line text box med namnet text_box:
+	 	</p>
+	 	<p>
+	 		<input type="text" name="text_box" value="ABC" />
+	 	</p>
+	 	<p>
+	 		Scrolling text box med namnet text_area:
+	 	</p>
+	 	<p>
+	 		<textarea name="text_area" rows="0" cols="0">
+DEF
+GHI
+	 		</textarea>
+	 	</p>
+	 	<p>
+	 		Check box med namnet check_box:
+	 	</p>
+	 	<p>
+     		<input type="checkbox" name="check_box" value="ON" checked="checked" />
+	 	</p>
+	 	<p>
+	 		Radio button med namnet radio_button;
+	 	</p>
+	 	<p>
+	 		<input type="radio" value="v1" name="radio_button" checked="checked" /> <input type="radio" value="v2" name="radio_button" />
+	 	</p>
+	 	<p>
+	 		Drop-down menu med namnet drop_down_menu:
+	 	</p>
+	 	<p>
+	 		<select name="drop_down_menu" size="1">
+	 			<option value="Värde1">
+	 				Värde1
+	 			</option>
+	 			<option value="Värde2">
+	 				Värde2
+	 			</option>
+	 		</select>
+	 	</p>
+	 	<p>
+	 		Image med namnet image:
+	 	</p>
+	 	<p>
+	 		<input src="tomcat.gif" name="image" type="image" />
+	 	</p>
+	 	<p>
+	 		Push button med namnet push_button:
+	 	</p>
+	 	<p>
+	 		<input type="submit" value="Tryck mig" name="push_button" />
+	 	</p>
+	  </form>
+	</body>
+</html>

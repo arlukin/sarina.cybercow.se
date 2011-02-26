@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>
+      File uploads
+    </title>
+    <link rel=File-List href="./Ladda%20upp%20ny%20bild_files/filelist.xml">
+
+
+	    <style>
+		<!--
+		 /* Font Definitions */
+		@font-face
+			{font-family:"Comic Sans MS";
+			panose-1:3 15 7 2 3 3 2 2 2 4;
+			mso-font-charset:0;
+			mso-generic-font-family:script;
+			mso-font-pitch:variable;
+			mso-font-signature:647 0 0 0 159 0;}
+		 /* Style Definitions */
+		p.MsoNormal, li.MsoNormal, div.MsoNormal
+			{mso-style-parent:"";
+			margin:0cm;
+			margin-bottom:.0001pt;
+			mso-pagination:widow-orphan;
+			font-size:12.0pt;
+			font-family:"Times New Roman";
+			mso-fareast-font-family:"Times New Roman";
+			mso-ansi-language:SV;}
+		h1
+			{mso-style-next:Normal;
+			margin:0cm;
+			margin-bottom:.0001pt;
+			mso-pagination:widow-orphan;
+			page-break-after:avoid;
+			mso-outline-level:1;
+			font-size:24.0pt;
+			mso-bidi-font-size:12.0pt;
+			font-family:"Comic Sans MS";
+			mso-font-kerning:0pt;
+			mso-ansi-language:SV;
+			font-weight:normal;}
+		@page Section1
+			{size:595.3pt 841.9pt;
+			margin:70.85pt 70.85pt 70.85pt 70.85pt;
+			mso-header-margin:35.4pt;
+			mso-footer-margin:35.4pt;
+			mso-paper-source:0;}
+		div.Section1
+			{page:Section1;}
+		-->
+	</style>
+  </head>
+  <body bgcolor="#003333" text="#999999">
+  	<div class=Section1>
+		<h1 align=center style='text-align:center'><b><span lang=SV>Ladda upp ny bild<o:p></o:p></span></b></h1>
+			<p class=MsoNormal><span lang=SV style='font-size:10.0pt;mso-bidi-font-size:
+			12.0pt;font-family:"Comic Sans MS"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+	</div>
+	<center>
+	<p>
+	<p>
+	<p>
+
+    <form method="post" enctype="multipart/form-data" action="FileUpload">
+
+				<div>
+  	 				<input type="hidden" name="username" value="---$username---" />
+	 			</div>
+        		<center><b>Filnamn:</b>
+        		<p>
+        			<input type="file" name="file" />
+        		</p>
+      			<p>
+       	 			<input type="submit" value="Ladda upp" name="push_button" />
+      			</p>
+      			</center>
+
+    </form>
+    	<center><p>
+    		<b>Obs! Bilden får inte vara större än 150*150 pixlar!</b>
+    			</p>
+    	</center>
+  </body>
+</html>
